@@ -14,14 +14,14 @@ export const HeaderRight = () => {
         <>
             <div className="flex gap-5">
                 <div
-                    className="  hidden sm:flex gap-1 items-center cursor-pointer"
+                    className="  hidden sm:flex  gap-1 items-center cursor-pointer"
                     onClick={() => navigate('/')}
                 >
-                    <MdOutlineHome size={30} color="#808089" />
+                    <MdOutlineHome size={24} color="#808089" />
                     <span className="text-[#808089]">Trang chủ</span>
                 </div>
                 <div className="hidden sm:flex gap-1 items-center border-r-2 pr-2 cursor-pointer">
-                    <SiIconify size={28} color="#808089" />
+                    <SiIconify size={22} color="#808089" />
                     <span className="text-[#808089]">Tài khoản</span>
                 </div>
                 <span className="cursor-pointer relative pr-5" onClick={() => setOpenCart(true)}>
